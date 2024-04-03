@@ -58,8 +58,6 @@ public class GumballService implements IGumballService{
         return result;
     }
 
-    
-
     @Override
     public List<GumballMachineRecord> findAll() throws IOException {
         return gumballRepository.findAll();
